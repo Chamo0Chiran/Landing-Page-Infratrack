@@ -29,7 +29,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-1 justify-between lg:gap-10 gap-10 flex-wrap">
+        <div className="flex flex-1 justify-between max-lg:justify-normal lg:gap-10 gap-5 flex-wrap">
           <h4></h4>
           {footerLinks.map((section) => (
             <div key={section.id}>
